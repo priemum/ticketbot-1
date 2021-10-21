@@ -6,7 +6,7 @@ const randomstring = require("randomstring");
 module.exports.run = async (bot, message, args) => {
     if(!message.content.startsWith('ticket.'))return;  
 
-    let permcheck = new Discord.RichEmbed()
+    let permcheck = new Discord.RichEmbed()      
     .setColor('#e64b0e')
     .setDescription(`You Don't Have Permission To Do This`)
 
