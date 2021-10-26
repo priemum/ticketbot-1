@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
 
     let argcheck = new Discord.RichEmbed()
     .setColor('#e64b0e')
-    .setDescription(`Choose a Number From 1 - 5 To Set a Reason For`)
+    .setDescription(`Choose a Number From 1 - 5 To Set a Reason For`)                  
 
     if(!args[0]) return message.channel.send(argcheck)
 
